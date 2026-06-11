@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import psycopg; print\\(psycopg.__version__\\)\")",
+      "Bash(pip install *)",
+      "Bash(python -c \"import sys; print\\(sys.executable\\)\")",
+      "Bash(pip show *)",
+      "Bash(/Library/Frameworks/Python.framework/Versions/3.13/bin/pip show *)",
+      "Read(//Library/Frameworks/Python.framework/Versions/3.13/bin/**)",
+      "Bash(/Library/Frameworks/Python.framework/Versions/3.13/bin/python3 -c \"import psycopg\")",
+      "Bash(gh auth *)",
+      "Bash(git init *)",
+      "Bash(git remote *)"
+    ]
+  }
+}
